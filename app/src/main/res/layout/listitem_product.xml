@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_weight="5"
+    android:orientation="horizontal"
+    tools:context=".DanhSachActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="5">
+
+            <TextView
+                android:id="@+id/tvProductName"
+                android:layout_width="88dp"
+                android:layout_height="75dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="TextView"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUnit0"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tvUnit"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="TextView"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="TextView"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_chon"
+            android:background="@drawable/buttonstyleithgradient"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/cardview_light_background"
+            android:layout_height="wrap_content"
+            android:text="Chọn" />
+    </LinearLayout>
+</LinearLayout>
